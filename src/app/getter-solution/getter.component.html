@@ -1,0 +1,7 @@
+<button (click)="changePeoples()">change peoples</button>
+<button (click)="changeAllPeoples()">change all peoples</button>
+<h4>peoples with async</h4>
+<app-peoples [peoples]="peoples$ | async"></app-peoples>
+<h4>selected peoples with async and filter pipe</h4>
+<app-peoples [peoples]="peoples$ | async | filterPeoples"></app-peoples>
+<div>{{count()}}</div>

@@ -1,0 +1,4 @@
+<div>history of transfer</div>
+<ul>
+  <li *ngFor="let item of account.transactions$ | async">{{item}}</li>
+</ul>

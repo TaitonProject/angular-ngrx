@@ -1,0 +1,4 @@
+<input type="number" [(ngModel)]="count">
+<button (click)="account.deposit(count)">Increment</button>
+<button (click)="account.withdrow(count)">Decrement</button>
+<div> {{account.logger()}}</div>

@@ -1,0 +1,2 @@
+Почему работает async https://github.com/angular/angular/blob/6.0.x/packages/common/src/pipes/async_pipe.ts
+https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4

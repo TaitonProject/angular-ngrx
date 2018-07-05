@@ -1,0 +1,7 @@
+<button (click)="changePeoples()">change peoples</button>
+<button (click)="changeAllPeoples()">change all peoples</button>
+<h4>peoples without getter</h4>
+<app-peoples [peoples]="peoples"></app-peoples>
+<h4>selected peoples with getter</h4>
+<app-peoples [peoples]="getSelectedPeoples()"></app-peoples>
+<div>{{count()}}</div>
